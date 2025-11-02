@@ -19,7 +19,7 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
 
   return (
     <div
-      className='w-full h- relative min-h-screen flex flex-col '>
+      className='w-full h-full relative min-h-screen flex flex-col'>
       {children}
       {/* <NavBar /> */}
     </div>

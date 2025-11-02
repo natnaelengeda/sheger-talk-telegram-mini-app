@@ -1,4 +1,3 @@
-import type { ComponentType } from "react";
 import Home from "../pages/home";
 import CheckLatency from "@/pages/check_latency";
 
