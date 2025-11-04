@@ -10,9 +10,7 @@ const userPersistConfig = {
   storage,
 };
 
-const userPersistReducer =
-  persistReducer(userPersistConfig,
-    userReducer);
+const userPersistReducer = persistReducer(userPersistConfig, userReducer);
 
 export const store = configureStore({
   reducer: {
